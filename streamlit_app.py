@@ -17,5 +17,4 @@ if st.button('回す')
     st.write(f'さいころの数は、「{saikorosuu}」個です。')
     random_num=random.randint(saikoro)
     for random_num in range(saikorosuu):
-        st.write(f'さいころの数字は、{random_num}')
     
